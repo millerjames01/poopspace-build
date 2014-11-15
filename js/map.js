@@ -36,7 +36,7 @@ $( document ).ready(function() {
 			iconUrl: 'https://dl-web.dropbox.com/get/Public/frontal7.png?_subject_uid=14821134&w=AACttam0UmeW2V492kvolHC9qP_8MYBAvTau595rvMjpvw',
 			iconSize: [24, 24]
 		});
-		L.marker([position.coords.latitude, position.coords.longitude]).setIcon(icon).addTo(map);
+		// L.marker([position.coords.latitude, position.coords.longitude]).setIcon(icon).addTo(map);
 		addTiles(map);
 	}
 	
