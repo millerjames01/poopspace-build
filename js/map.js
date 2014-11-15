@@ -31,7 +31,12 @@ $( document ).ready(function() {
 				   "<p>" + current["notes"] + "</p>";
 				L.marker([current["latitude"], current["longitude"]]).bindPopup(popupContent).addTo(map);
 			}
-		})
+		});
+		var icon = L.icon({
+			iconUrl: '../images/frontal7.png',
+			iconSize: [48, 48]
+		});
+		L.marker([position.coords.latitude, position.coords.longitude]).setIcon(icon).addTo(map);
 		addTiles(map);
 	}
 	

@@ -1,3 +1,8 @@
 #map {
 	width: 100%;
 }
+
+.leaflet-popup-close-button {
+	width: 40px;
+	length: 40px;
+}
