@@ -8,7 +8,7 @@ $( document ).ready(function() {
 		var map = L.map('map').setView([51.05, -0.09], 16);
 		addTiles(map);
 	}
-	
+
 	function initMap(position) {
 		var map = L.map('map').setView([position.coords.latitude, position.coords.longitude], 16);
 		var data = {
