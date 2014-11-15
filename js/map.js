@@ -33,7 +33,7 @@ $( document ).ready(function() {
 			}
 		});
 		var icon = L.icon({
-			iconUrl: '../images/frontal7.png',
+			iconUrl: 'jsImages/frontal7.png',
 			iconSize: [48, 48]
 		});
 		L.marker([position.coords.latitude, position.coords.longitude]).setIcon(icon).addTo(map);
