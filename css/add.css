@@ -9,5 +9,5 @@ h1 {
 }
 
 textarea:focus {
-	bottom-margin: 300px;
+	top-margin: -300px;
 }
