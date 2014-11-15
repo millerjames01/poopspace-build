@@ -7,3 +7,7 @@ form.form-horizontal {
 h1 {
 	text-align: center;
 }
+
+textarea:focus {
+	bottom-margin: 300px;
+}
