@@ -21,7 +21,7 @@ $( document ).ready(function() {
 			console.log(data);
 			$.post('http://134.173.222.99:9000/api/add', $.param(data), function(returnData) {
 				if(returnData == "success") {
-					window.location.replace("/map");
+					window.location.replace("index.html");
 				}
 			});
 		}
