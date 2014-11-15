@@ -19,7 +19,7 @@ $( document ).ready(function() {
 				notes: $('textarea#notes').val()
 			}
 			console.log(data);
-			$.post('http://134.173.222.99:9000/api/add', $.param(data), function(returnData) {
+			$.post('http://arcane-citadel-1794.herokuapp.com/api/add', $.param(data), function(returnData) {
 				if(returnData == "success") {
 					window.location.replace("index.html");
 				}

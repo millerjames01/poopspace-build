@@ -15,7 +15,7 @@ $( document ).ready(function() {
 			"longitude": position.coords.longitude,
 			"latitude": position.coords.latitude
 		}
-		$.post("http://134.173.222.99:9000/api/nearbyPoops", data, function(arrayOfNearby) {
+		$.post("http://arcane-citadel-1794.herokuapp.com/api/nearbyPoops", data, function(arrayOfNearby) {
 			for(i = 0; i < arrayOfNearby.length; i++) {
 				var current = arrayOfNearby[i];
 				if(current["location"] == "") {
